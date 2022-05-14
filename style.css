@@ -539,3 +539,108 @@ a{
     bottom: 45%;
     width: 100%;
 }
+
+
+/* haidy */
+
+
+.part .icon-part{
+    color: #f25454;
+  }
+
+.head {
+    position: relative;
+  }
+  .head h2{
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(231, 222, 222);
+  }
+  .above h3{
+    font-size: 35px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50% , 5%);
+  }
+  .title-line{
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    transition: width 0.5s;
+    }
+     .head:hover .title-line{
+      width: 100px;
+    } 
+
+.client-basic .title-line:hover{
+    width: 100px;
+  } 
+  
+  .touch-basic{
+    background-color: #eee;
+  }
+  .contact-text p{
+    margin-left: 50px;
+    color: #666;
+   
+  }
+  .part h5{
+    color: black;
+    font-weight: 600;
+   font-size: 18px;
+  }
+  .left-touch .name,.email{
+    border: 2px solid #eee;
+    outline: none;
+    color: #fff;
+    width: 85%;
+  }
+  .left-touch .phone,.message{
+    border: 2px solid #eee;
+    outline: none;
+    color: #fff;
+    width: 85%;
+  }
+  .x-form{
+    display: inline;
+    position: absolute;
+    top: 17px;
+    right: 110px;
+  }
+  .left-touch .name:focus{
+    border: 2px solid  #f25454;
+  }
+  .left-touch .email:focus{
+    border: 2px solid  #f25454;
+  }
+  .left-touch .phone:focus{
+    border: 2px solid  #f25454;
+  }
+  .left-touch .message:focus{
+    border: 2px solid  #f25454;
+  }
+  
+  .btn-touch{
+    background-color: #f25454;
+    padding: 16px 28px;
+    border-radius: 3px;
+    border: 1px solid #f25454;
+    }
+  
+   .btn-touch:hover{
+    background-color: #f38383;
+    border: 1px solid #f38383;
+   }
+  .carousel-indicators button{
+    background-color: #f25454 !important;
+  
+   
+    
+  }
+
+  /* haidy */
